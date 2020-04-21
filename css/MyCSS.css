@@ -6,7 +6,7 @@
     background-color: whitesmoke;
     position: relative;
     left: 0px;
-    top: -50px;
+    top: -5vw;
     z-index: 1;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .lobster {
     font-family: lobster;
-    font-size: 70px;
+    font-size: 5.9vw;
 }
 
 .my-margin-zero {

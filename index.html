@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- Header -->
-<header id="myHeader">
+<header >
     <div class="w3-display-container">
         <img class="w3-opacity" src="img/header.gif" alt="Graphic header"
              style="width: 100%;position: relative; z-index: -1">
@@ -20,43 +20,42 @@
         <nav class="w3-display-topright" id="myNavbar" style="width: 100%">
             <a href="#"><img class="w3-display-topleft" href="#" src="img/logo.png" width="20%"></a>
             <ul class="w3-right" style="list-style-type: none;display: flex">
-                <li><a href="#" class="w3-button w3-xlarge w3-margin-right">لینک</a></li>
-                <li><a href="#" class="w3-button w3-xlarge w3-margin-right">لینک</a></li>
-                <li><a href="#" class="w3-button w3-xlarge w3-margin-right">لینک</a></li>
-                <li><a href="#" class="w3-button w3-xlarge w3-margin-right">خانه</a></li>
+                <li><a href="#" class="w3-button w3-xlarge w3-margin-right w3-hide-small">لینک</a></li>
+                <li><a href="#" class="w3-button w3-xlarge w3-margin-right w3-hide-small">لینک</a></li>
+                <li><a href="#" class="w3-button w3-xlarge w3-margin-right w3-hide-small">لینک</a></li>
+                <li><a href="#" class="w3-button w3-xlarge w3-margin-right w3-hide-small">خانه</a></li>
             </ul>
         </nav>
-        <div class="w3-display-middle w3-center">
+        <div class="w3-display-middle w3-center ">
             <h1 class="lobster"><b>M S Y <span style="color: red">.</span> <span style="color: green">.</span>
                 <span style="color: blue">.</span> G r a p h i c</b></h1>
-            <h3 class="w3-animate-bottom w3-jumbo"><b>طراحی</b></h3>
+            <h3 style="font-size: 4vw;"><b>طراحی</b></h3>
         </div>
     </div>
 </header>
 
 <!-- Form -->
 <div class="w3-row">
-    <div class="w3-col w3-container l2"></div>
-    <div class="w3-col w3-container l8">
+    <div class="w3-col w3-container l2 m1 s12"></div>
+    <div class="w3-col w3-container l8 m10 s12">
         <form class="w3-container w3-card-4 my-form w3-round-xlarge">
             <h2 class="w3-center">ثبت سفارش</h2>
-            <div>
-                <input class="w3-input w3-round w3-border w3-col l2 w3-margin" type="text" placeholder="Name" required>
-                <input class="w3-input w3-round w3-border w3-col l2 w3-margin" type="text" placeholder="Email" required>
-                <input class="w3-input w3-round w3-border w3-col l2 w3-margin" type="text" placeholder="Subject"
-                       required>
+            <div class="w3-center">
+                <input class="w3-round w3-border" type="text" placeholder="Name" required>
+                <input class="w3-round w3-border" type="text" placeholder="Email" required>
+                <input class="w3-round w3-border" type="text" placeholder="Subject" required>
             </div>
 
             <div class="w3-row">
                 <div class="w3-half">
                     <input id="milk" class="w3-check" type="checkbox" checked="checked">
-                    <label>Milk</label>
+                    <label>choice</label>
                     <br>
                     <input id="sugar" class="w3-check" type="checkbox">
-                    <label>Sugar</label>
+                    <label>choice</label>
                     <br>
                     <input id="lemon" class="w3-check" type="checkbox" disabled>
-                    <label>Lemon (Disabled)</label>
+                    <label>choice (Disabled)</label>
                     <br><br>
                 </div>
 
@@ -68,12 +67,12 @@
                     <label>Female</label>
                     <br>
                     <input id="unknown" class="w3-radio" type="radio" name="gender" value="" disabled>
-                    <label> Don't know (Disabled)</label>
+                    <label>none (Disabled)</label>
                 </div>
             </div>
         </form>
     </div>
-    <div class="w3-col w3-container l2"></div>
+    <div class="w3-col w3-container l2 m1 s12"></div>
 </div>
 
 <!-- About US -->
@@ -161,3 +160,5 @@
 
 </div>
 </body>
+</html>
+<div class="w3-mobile">asdasdas</div>
